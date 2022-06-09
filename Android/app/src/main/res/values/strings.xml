@@ -1,0 +1,373 @@
+<resources>
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_provision_landing">Conectar a dispositivo</string>
+    <string name="no_internet_note">Para confirmar que estas conectado al dispositivo, por favor asegurese que su dispositivo esté conectado a internet.</string>
+    <string name="connect_to_device_action">Conectar</string>
+    <string name="connected_to_device_action">Disponibilidad de red</string>
+    <string name="ssid_hint_text">Nombre de la red</string>
+    <string name="password_hint_text">Contraseña</string>
+    <string name="provision">Disponibilidad</string>
+
+    <string name="success_text">¡El dispositivo se ha conectado correctamente!</string>
+    <string name="add_device_success_text">¡El dispositivo se ha agregado correctamente!</string>
+    <string name="wifi_disconnected_text">Por favor verifique la disponibilidad de red.</string>
+    <string name="done">Listo</string>
+
+    <string name="enable_bluetooth_action">Habilitar</string>
+    <string name="enabled_bluetooth_action">Red disponible</string>
+
+    <!-- Strings used for Progress -->
+    <string name="progress_scanning">Buscando dispositivos...</string>
+    <string name="progress_get_status">Obteniendo estado</string>
+    <string name="progress_loading">Cargando...</string>
+    <string name="progress_claiming">Reclamo en progreso...</string>
+    <string name="progress_add_sch">Añadiendo calendario...</string>
+    <string name="progress_update_sch">Actualizando calendario...</string>
+    <string name="progress_create_group">Creando grupo...</string>
+    <string name="progress_update_group">Actualizando grupo...</string>
+    <string name="progress_remove_group">Removiendo grupo...</string>
+    <string name="progress_remove_device">Removiendo dispositivo...</string>
+    <string name="progress_remove_node">Removiendo nodo...</string>
+    <string name="progress_accepting">Aceptando...</string>
+    <string name="progress_declining">Rechazando...</string>
+    <string name="progress_wifi_scan">Buscando conexión Wi-Fi...</string>
+
+
+    <!--Error Messages-->
+    <string name="error_title">Error!</string>
+    <string name="error_ble_not_supported">¡Lo sentimos! no se soporta BLE.</string>
+    <string name="error_bluetooth_not_supported">¡Lo sentimos! Bluetooth no se soporta.</string>
+    <string name="error_device_not_supported">Comunicacion fallida. Dispositivo no soportado.</string>
+    <string name="error_pop_incorrect">Error estableciendo la conexion.\n Chequee si el POP es correcto!</string>
+    <string name="error_qr_code_not_valid">Error! codigo QR no valido. Intentelo nuevamente.</string>
+    <string name="error_device_connect_failed">Error! Fallo de conexion al dispositivo.</string>
+    <string name="error_device_communication_failed">Error! Comunicacion no disponible con el dispositivo.</string>
+    <string name="error_ble_device_disconnected">Dispositivo Bluetooth desconectado.</string>
+    <string name="error_no_ble_device">No se encontraron dispositivos Bluetooth!</string>
+    <string name="error_ble_device_config_failed">El dispositivo Bluetooth no se pudo configurar. Por favor intente con otro.</string>
+    <string name="error_device_list_not_received">Error : Lista de dispositivos no recibida</string>
+    <string name="error_schedule_not_received">Error : Calendarios no recibidos</string>
+    <string name="error_email_empty">Email no puede estar vacio</string>
+    <string name="error_invalid_email">Por favor ingrese un Email valido</string>
+    <string name="error_password_empty">Contraseña no puede estar vacia</string>
+    <string name="error_confirm_password_empty">Confirmacion de contraseña no puede estar vacia</string>
+    <string name="error_confirmation_code_empty">Código de confirmacion no puede estar vacio</string>
+    <string name="error_verification_code_empty">Código de verificacion no puede estar vacio</string>
+    <string name="error_ssid_empty">Nombre de la red no puede estar vacio</string>
+    <string name="error_network_select">No se seleccionó una red</string>
+    <string name="error_password_not_matched">No coinciden las contraseñas</string>
+    <string name="error_agree_terms_n_condition">Por favor acepte los terminos de uso.</string>
+    <string name="error_provisioning">Resetee la placa a los valores de fabrica e intentelo nuevamente</string>
+    <string name="error_authentication_failed">Falló la autenticacion Wi-Fi.</string>
+    <string name="error_network_not_found">Red no encontrada.</string>
+    <string name="error_unknown">Error desconocido.</string>
+    <string name="error_device_name_empty">Nombre del dispositivo no puede estar vacio</string>
+    <string name="error_delete_node">Error al eliminar el nodo.</string>
+    <string name="error_session">No se pudo establecer la conexion</string>
+    <string name="error_provisioning_failed">El aprovisionamiento falló</string>
+    <string name="error_param_update">Error al actualizar</string>
+    <string name="error_login">Error iniciando sesión</string>
+    <string name="error_wifi_off">Encienda el Wi-Fi para conectar con el dispositivo.</string>
+    <string name="error_claiming_progress">Fallo al registrar tu cuenta con la nube: </string>
+    <string name="error_claiming">Error de registro. Por favor reinicie el dispositivo y el aprovisionamiento.</string>
+    <string name="error_claiming_not_supported">El registro asistido no es soportado por SoftAP. No se puede seguir.</string>
+    <string name="error_claiming_start">Inicio de registro fallido</string>
+    <string name="error_claiming_init">Registro init fallido</string>
+    <string name="error_claiming_verify">Verificacion de registro fallido</string>
+    <string name="error_schedule_name_empty">El nombre del calendario no puede estar vacio</string>
+    <string name="error_invalid_schedule_name">Por favor ingrese el nombre del calendario</string>
+    <string name="error_device_type_not_supported">No se puede soportar el dispositivo.</string>
+    <string name="error_schedule_action">Por favor seleccione una accion para el calendario</string>
+    <string name="error_schedule_add">Error al añadir calendario para varios dispositivos</string>
+    <string name="error_schedule_remove">Error al remover el calendario para el dispositivo</string>
+    <string name="error_group_device_remove">Error al remover el dispositivo del grupo</string>
+    <string name="error_group_name_empty">El nombre del grupo no puede estar vacio</string>
+    <string name="error_group_name_update">Error al cambiar el nombre del grupo</string>
+    <string name="error_group_create">Error al crear el grupo</string>
+    <string name="error_group_update">Error al actualizar el grupo</string>
+    <string name="error_group_remove">Error al eliminar grupo</string>
+    <string name="error_get_sharing_request">Error al obtener la solicitud de intercambio</string>
+    <string name="error_add_member">Error al añadir miembro</string>
+    <string name="error_remove_member">Error al eliminar miembro</string>
+    <string name="error_remove_sharing_req">Error al eliminar la solicitud de intercambio</string>
+    <string name="error_update_timezone">Error al actualizar la zona horaria</string>
+    <string name="error_camera_permission">No se permitio el acceso a la camara. La aplicacion no podra añadir dispositivo escaneando QR.</string>
+    <string name="error_location_permission">No se permitio el acceso a la ubicación . Sera necesario para añadir dispositivos BLE o SoftAP.</string>
+
+    <!--Screen titles-->
+    <string name="title_activity_settings">Configuracion</string>
+    <string name="title_activity_esp_device">Dispositivo</string>
+
+    <string name="prefix">Prefijos :</string>
+    <string name="hint_prefix">Ingrese prefijo</string>
+    <string name="hint_key">Ingrese PIN</string>
+    <string name="devices_title">Servicios</string>
+    <string name="enter_device_key">Ingrese su Proof Of Possession(POP) PIN</string>
+
+    <string name="join_other_network">Ingrese a otra red</string>
+    <string name="networks">Redes</string>
+    <string name="text_on">Encendido</string>
+    <string name="text_off">Apagado</string>
+
+
+    <string name="Username">Usuario</string>
+    <string name="Password">Contraseña</string>
+    <string name="Menu">Menu</string>
+    <string name="app_main_desc">A sample app to showcase Cognito Identity and the SDK for Android.</string>
+    <string name="powered_by_esp">Esponsoreado por ESPRESSIF</string>
+    <string name="no_devices">No se agregaron dispositivos</string>
+    <string name="no_schedules">No se agregaron calendarios</string>
+    <string name="no_groups">No se crearon grupos</string>
+    <string name="no_sharing_requests">No hay solicitudes de intercambio</string>
+    <string name="add_device_txt">Podes conectar un dispositivo escaneando el codigo QR o de forma manual tocando el icono de + en la esquina superior derecha de la pantalla.</string>
+    <string name="signup_confirm_msg">Ingrese codigo de verificacion.</string>
+    <string name="node_offline">Nodo desconectado</string>
+    <string name="status_offline">Desconectado</string>
+    <string name="offline_at">Sin conexion</string>
+    <string name="no_devices_with_schedule"> Usted no tiene ningun dispositivo que soporte esta funcion.</string>
+    <string name="local_device_text">Accesible en WLAN</string>
+    <string name="invalid">Invalido</string>
+
+    <!--Tab titles-->
+    <string name="tab_login">Iniciar Sesion</string>
+    <string name="tab_sign_up">Registrarse</string>
+    <string name="tab_devices">Dispositivos</string>
+    <string name="tab_schedules">Calendarios</string>
+    <string name="tab_user">Usuario</string>
+
+    <!--Hint texts-->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">contraseña</string>
+    <string name="hint_confirm_password">Confirmar contraseña</string>
+    <string name="hint_old_password">Contraseña vieja</string>
+    <string name="hint_new_password">Contraseña nueva</string>
+    <string name="hint_confirm_new_password">Confirme la nueva contraseña</string>
+    <string name="hint_verification_code">codigo de verificacion</string>
+    <string name="hint_pop">POP</string>
+    <string name="hint_ssid">Nombre de la red</string>
+    <string name="hint_value">Ingrese valor</string>
+
+    <!--Button text-->
+    <string name="btn_register">Registrarse</string>
+    <string name="btn_registering">Registrando&#8230;</string>
+    <string name="btn_login">Iniciar sesion</string>
+    <string name="btn_signing_in">Iniciando sesion&#8230;</string>
+    <string name="btn_confirm">Confirmar</string>
+    <string name="btn_confirming">Confirmando&#8230;</string>
+    <string name="btn_set_password">Establecer contraseña</string>
+    <string name="btn_setting_password">Estableciendo contraseña&#8230;</string>
+    <string name="btn_connect">Conectar</string>
+    <string name="btn_connecting">Conectando&#8230;</string>
+    <string name="btn_reset_password">Reestablecer contraseña</string>
+    <string name="btn_resetting_password">Reestableciendo contraseña&#8230;</string>
+    <string name="btn_remove">Remover</string>
+    <string name="btn_removing">Removiendo&#8230;</string>
+    <string name="btn_github">Iniciar sesion usando GitHub</string>
+    <string name="btn_google">Iniciar sesion usando Google</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_back">Atras</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_join">Aprovisionamiento</string>
+    <string name="btn_yes">SI</string>
+    <string name="btn_no">NO</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_no_qr_code">No tengo un codigo QR</string>
+    <string name="btn_add_device">Añadir Dispositivo</string>
+    <string name="btn_add_schedule">Añadir Calendario</string>
+    <string name="btn_scan_again">Volver a escanear</string>
+    <string name="btn_sign_out">Cerrar Sesion</string>
+    <string name="btn_skip">Saltar</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="btn_change_prefix">Cambiar</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_update">Actualizar</string>
+    <string name="btn_logout">Cerrar Sesion</string>
+    <string name="btn_done">Hecho</string>
+    <string name="btn_add">Añadir</string>
+    <string name="btn_accept">Aceptar</string>
+    <string name="btn_deny">Rechazar</string>
+    <string name="btn_get_permission">Conseguir permiso</string>
+    <string name="btn_start">Iniciar</string>
+    <string name="btn_info">Info de nodo</string>
+
+    <!--Screen titles-->
+    <string name="title_activity_devices">Dispositivos</string>
+    <string name="title_activity_sign_up_confirm">Confirmar Cuenta</string>
+    <string name="title_activity_forgot_password">Olvide Mi Contraseña</string>
+    <string name="title_activity_reset_password">Reestablecer Contraseña</string>
+    <string name="title_activity_change_password">Cambiar Contraseña</string>
+    <string name="title_activity_connect_device">Conectarse a dispositivo</string>
+    <string name="title_activity_add_device">Añadir Dispositivo</string>
+    <string name="title_activity_pop">Prueba de Posesion(POP)</string>
+    <string name="title_activity_provision">Aprovisionamiento</string>
+    <string name="title_activity_provisioning">Aprovisionando</string>
+    <string name="title_activity_wifi_scan_list">Seleccione red Wi-Fi</string>
+    <string name="title_activity_wifi_config">Configuracion de Wi-Fi</string>
+    <string name="title_activity_node_details">Detalles del Nodo</string>
+    <string name="title_activity_user_profile">Perfil</string>
+    <string name="title_activity_claiming">Reclamo</string>
+    <string name="title_activity_add_schedule">Añadir Calendario</string>
+    <string name="title_activity_schedule_details">Detalles del Calendario</string>
+    <string name="title_activity_repeat_days">Repetir</string>
+    <string name="title_activity_actions">Acciones</string>
+    <string name="title_activity_schedules">Calendarios</string>
+    <string name="title_activity_select_devices">Seleccionar Dispositivo</string>
+    <string name="title_activity_select_actions">Seleccionar Accion</string>
+    <string name="title_activity_manage_groups">Administrar Grupos</string>
+    <string name="title_activity_create_group">Crear Grupo</string>
+    <string name="title_activity_edit_group">Editar Grupo</string>
+    <string name="title_activity_sharing_requests">Compartiendo Solicitudes</string>
+    <string name="title_activity_voice_services">Servicios de Voz</string>
+
+    <!--Dialog texts-->
+    <string name="dialog_title_login_failed">Inicio de sesion fallido</string>
+    <string name="dialog_title_sign_up_failed">Registro fallido</string>
+    <string name="dialog_title_sign_up_success">Registro exitoso!</string>
+    <string name="dialog_title_conf_code_sent">Codigo de confirmacion enviado</string>
+    <string name="dialog_title_conf_code_req_fail">Falló la solicitud del codigo de confirmacion</string>
+    <string name="dialog_title_password_changed">Se cambio correctamente la contraseña!</string>
+    <string name="dialog_title_forgot_password_failed">Forgot password failed</string>
+    <string name="dialog_title_new_version_available">Nueva version disponible!</string>
+    <string name="dialog_title_network_info">Ingrese la informacion de la red</string>
+    <string name="dialog_title_schedule_name">Ingrese el nombre del calendario</string>
+    <string name="dialog_msg_for_gps">Los servicios de ubicacion estas desactivados. Por favor activelos para continuar</string>
+    <string name="dialog_msg_delete_node">¿Esta seguro?</string>
+    <string name="dialog_msg_device_selection">Elija el transporte de aprovisionamiento</string>
+    <string name="dialog_title_remove">Remover</string>
+    <string name="dialog_msg_confirmation">¿Esta seguro?</string>
+    <string name="dialog_msg_ble_device_disconnection">Dispositivo desconectado</string>
+    <string name="dialog_msg_connect_device_manually">Conexion fallida. \n¿Desea conectar el dispositivo manualmente?</string>
+    <string name="dialog_title_group_name">Ingrese el nombre del grupo</string>
+    <string name="dialog_title_user_email">Email de usuario</string>
+    <string name="dialog_title_logout">Cerrar sesion</string>
+    <string name="dialog_title_no_network">Error de red</string>
+    <string name="dialog_msg_no_network">Verifique la conexion del dispositivo</string>
+
+    <!--Node Details-->
+    <string name="node_id">ID del Nodo</string>
+    <string name="node_name">Nombre</string>
+    <string name="node_type">Tipo</string>
+    <string name="node_fw_version">Version del FirmWare</string>
+    <string name="node_config_version">Version de la Configuracion</string>
+    <string name="node_timezone">Zona horaria</string>
+    <string name="node_shared_with">Compartido con</string>
+    <string name="node_shared_by">Compartido por</string>
+    <string name="pending_requests">Esperando aceptación</string>
+
+    <!-- Instruction Strings -->
+    <string name="pop_instruction">Ingrese su PIN POP para</string>
+    <string name="setup_instructions">Para completar la configuracion de tu dispositivo %1$s, por favor provea las credenciales de su red.\'s</string>
+    <string name="connect_device_instruction_general">Para aprovicionar su dispositivo, asegurese de que este encendido. Conecte su celular al Wi-Fi con un nombre como: PROV_XXXXXX</string>
+    <string name="connect_device_instruction_specific">Para aprovicionar su dispositivo, asegurese de que este encendido. Conecte su celular al Wi-Fi con el nombre correspondiente</string>
+    <string name="password_instruction">La contraseña debe tener al menos una mayuscula y un numero.</string>
+    <string name="forgot_password_instruction">Ingrese su email para reestablecer la contraseña.</string>
+    <string name="reset_password_instruction">Ingrese la nueva contraseña con el codigo que se le envio.</string>
+    <string name="enable_bluetooth_instructions">Para aprovisionar su nuevo dispositivo, asegurese de que el Bluetooth este encendido y en el rango de su nuevo dispositivo.</string>
+    <string name="enabled_bluetooth_instructions">para aprovisionar su nuevo dispositivo, ingrese las credenciales de su red en la siguiente pagina.</string>
+
+    <!--Other Strings-->
+    <string name="read_terms_condition">He leido y acepto la politica de privacidad y los terminos de uso.</string>
+    <string name="login_with">Ingresar con</string>
+    <string name="use_email_id">o use su id de email</string>
+    <string name="forgot_password">¿Olvido su contraseña?</string>
+    <string name="resend_code">Reenviar codigo</string>
+    <string name="connect_your_device">Conectar a su dispositivo</string>
+    <string name="documentation">Documentacion</string>
+    <string name="privacy_policy">Politica de privacidad</string>
+    <string name="terms_of_use">Terminos de uso</string>
+    <string name="voice_services">Servicios de voz</string>
+    <string name="looking_for_qr_code">Buscando codigo QR</string>
+    <string name="position_camera_for_qr_code">Por favor enfoque el codigo QR.</string>
+    <string name="app_version">Version de la App</string>
+    <string name="enter_valid_value">Por favor ingrese un valor valido</string>
+    <string name="password_change_success">Se cambio la contraseña</string>
+    <string name="password_change_failure">Fallo el cambio de contraseña</string>
+    <string name="success">¡Exito!</string>
+    <string name="req_confirmation_code">Solicite un codigo de confirmacion o use el que ya tiene.</string>
+    <string name="confirmation_failed">Fallo la confirmacion</string>
+    <string name="text_remove_node">Al remover un nodo, se eliminaran todos los dipositivos asociados a el.</string>
+    <string name="device_no_param">El dispositivo no tiene parametros</string>
+    <string name="process_take_time">Esto podria llevar un tiempo.</string>
+    <string name="not_set">No establecido</string>
+    <string name="msg_no_internet">Sin conexion a internet</string>
+    <string name="schedule_actions">Acciones</string>
+    <string name="msg_schedule_added">Calendario añadido</string>
+    <string name="msg_schedule_updated">Calendario actualizado</string>
+    <string name="group_all_devices">Todos los dispositivos</string>
+    <string name="success_group_name_update">Nombre de grupo actualizado exitosamente</string>
+    <string name="success_group_create">Grupo creado exitosamente</string>
+    <string name="success_group_update">Grupo actualizado exitosamente</string>
+    <string name="success_group_remove">Grupo removido exitosamente</string>
+    <string name="wants_to_share">quiere compartir</string>
+    <string name="with_you">con usted</string>
+    <string name="and">y</string>
+    <string name="devices">dispositivos</string>
+    <string name="device">dispositivo</string>
+    <string name="node">nodo</string>
+    <string name="expires_in">Expira en</string>
+    <string name="expire_days">Dias</string>
+    <string name="select_timezone">Seleccione Zona Horaria</string>
+    <string name="select_network">Seleccione Red</string>
+    <string name="email">Email</string>
+    <string name="supported_services">Servicios Soportados</string>
+    <string name="text_alexa">Amazon Alexa</string>
+    <string name="text_gva">Asistente de Google</string>
+
+    <string name="prov_step_1">Enviando credeciales Wi-Fi</string>
+    <string name="prov_step_2">Confirmando conexion Wi-Fi</string>
+    <string name="prov_step_3">Configurando asociacion usuario-nodo</string>
+    <string name="prov_step_4">Confirmando asociacion usuario-nodo</string>
+    <string name="prov_step_5">Estableciendo el nodo</string>
+    <string name="error_prov_step_1">Fallo al asociar el dispositivo</string>
+    <string name="error_prov_step_2">Fallo al enviar las credenciales de red</string>
+    <string name="error_prov_step_3">Fallo al configurar la asociacion del nodo</string>
+    <string name="error_prov_step_4">Fallo al confirmar la asociacion del nodo</string>
+    <string name="error_prov_step_5">Fallo al configurar el nodo</string>
+
+    <string name="schedule_on_day">En</string>
+    <string name="schedule_once">Una vez</string>
+    <string name="schedule_daily">Todos los dias</string>
+    <string name="schedule_weekends">En fin de semana</string>
+    <string name="schedule_weekdays">En dias de semana</string>
+
+
+    <string name="day_1">LUN</string>
+    <string name="day_2">MAR</string>
+    <string name="day_3">MIER</string>
+    <string name="day_4">JUE</string>
+    <string name="day_5">VIE</string>
+    <string name="day_6">SAB</string>
+    <string name="day_7">DOM</string>
+
+    <!--    Notification strings-->
+    <string name="channel_node_connected">Nodo conectado</string>
+    <string name="channel_node_disconnected">Nodo desconectado</string>
+    <string name="channel_node_added">Nodo añadido</string>
+    <string name="channel_node_removed">Nodo eliminado</string>
+    <string name="channel_node_sharing">Compartiendo nodo</string>
+    <string name="channel_node_alert">Mensajes de alerta</string>
+
+    <string name="notify_node_added">Se añadieron nuevos dispositivos. Toque para ver.</string>
+    <string name="notify_node_removed">Se eliminaron algunos dispositivos. Toque para ver.</string>
+    <string name="notify_node_connected">Algunos dispositivos se conectaron. Toque para ver.</string>
+    <string name="notify_node_disconnected">Algunos dispositivos se desconectaron. Toque para ver.</string>
+    <string name="notify_node_alert">Alerta recibida de un dispositivo. Toque para ver.</string>
+
+    <string-array name="days">
+        <item>Dom</item>
+        <item>Sab</item>
+        <item>Vie</item>
+        <item>Jue</item>
+        <item>Mier</item>
+        <item>Mar</item>
+        <item>Lun</item>
+    </string-array>
+
+    <string-array name="prov_transport_types">
+        <item>BLE</item>
+        <item>SoftAP</item>
+    </string-array>
+
+    <item name="position" type="id" />
+
+</resources>

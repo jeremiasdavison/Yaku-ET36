@@ -10,4 +10,4 @@ Cuenta con una página web en la que se puede ver a detalle todo el contenido qu
 
 Tiene también, una aplicación de celular (Android), asociada a ESP Rainmaker  en la que se consulta el estado actual o más reciente de cada uno de los sensores que contiene el dispositivo, también se puede ver el historial de los datos recabados de temperaturas, humedad,  mediante consultas por lapsos de tiempo, permite habilitar / deshabilitar el riego de forma manual y establecer nuevas condiciones para el riego.
 
-![Diagrama del funcionamiento del dispositivo de YAKU](https://i.imgur.com/n3AOR4S.png)
+![Diagrama del funcionamiento del dispositivo de YAKU](https://i.imgur.com/vbk0tUV.jpg)
